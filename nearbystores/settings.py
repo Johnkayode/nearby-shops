@@ -9,7 +9,7 @@ SECRET_KEY = 'django-insecure-x1^2n2l4*w^5qiu6+&d897dgbn=5&mm*#^mty$^=ob6znw1!w2
 
 DEBUG = False
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['*']
 
 
 AUTH_USER_MODEL = "account.CustomUser"

@@ -122,4 +122,4 @@ LOGIN_REDIRECT_URL = ''
 LOGIN_URL = 'account/signin'
 LOGOUT_URL = 'account/signout'
 
-django_heroku.settings(local())
+django_heroku.settings(locals())

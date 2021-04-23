@@ -75,7 +75,7 @@ function getNearbyPlaces(position) {
   let request = {
     location: position,
     rankBy: google.maps.places.RankBy.DISTANCE,
-    keyword: 'sushi'
+    keyword: 'shop'
   };
 
   service = new google.maps.places.PlacesService(map);

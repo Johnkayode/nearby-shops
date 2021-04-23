@@ -1,0 +1,83 @@
+
+#map {
+    overflow-y: hidden;
+    height: 100%;
+    width: 50%;
+    float: left;
+}
+
+#page {
+    overflow-y: scroll;
+    padding: 50px 20px;
+    height: 100%;
+    width: 50%;
+    float: right;
+    background-color: rgb(85, 139, 189);
+}
+
+
+html,
+body {
+
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.form-signin{
+    max-width: 500px;
+    justify-content: center;
+    align-self: center;
+
+}
+
+
+#shops{
+    display: block;
+}
+
+.shop-item{
+    position: relative;
+    margin: 10px 10px;
+    padding: 10px 15px;
+    width: 100%;
+    background-color: #ffffff;
+    display: inline-block;
+    border-radius: 15px;
+}
+
+.icon{
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+}
+
+
+
+.fa-heart{
+    position: absolute;
+    float: right;
+    font-size: 30px;
+    color: rgb(85, 139, 189);
+    top: 10px;
+    right: 10px;
+    cursor: pointer;
+    transition: 0.2s all ease-in;
+}
+
+
+.fa-times{
+    float: right;
+    cursor: pointer;
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+    font-size: 30px;
+    transition: 0.2s all ease-in;
+}
+
+.fa-heart:hover,
+.fa-times:hover{
+    transition: 0.2s all ease-out;
+    font-size: 35px;
+}
